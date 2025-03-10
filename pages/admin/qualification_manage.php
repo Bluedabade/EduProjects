@@ -24,7 +24,7 @@ require './session.php';
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.php">หน้าหลัก</a>
+                        <a class="nav-link" href="index.php">หน้าหลัก</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">เล่มโครงการ</a>
@@ -46,30 +46,8 @@ require './session.php';
     </nav>
     <div class="container mt-4">
         <div class="row justify-content-center">
-            <!-- จัดการแผนก -->
-            <div class="col-md-5">
-                <div class="card text-center shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="card-title">จัดการแผนก</h5>
-                        <p class="card-text">เพิ่ม แก้ไข หรือลบข้อมูลแผนกในระบบ</p>
-                        <a class="btn btn-primary btn-lg w-100" href="./depart_manage.php">
-                            <i class="bi bi-building"></i> จัดการแผนก
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- จัดการปีการศึกษา -->
-            <div class="col-md-5">
-                <div class="card text-center shadow-sm border-0">
-                    <div class="card-body">
-                        <h5 class="card-title">จัดการปีการศึกษา</h5>
-                        <p class="card-text">เพิ่ม แก้ไข หรือลบข้อมูลปีการศึกษา</p>
-                        <a class="btn btn-primary btn-lg w-100" href="./qualification_manage.php">
-                            <i class="bi bi-calendar3"></i> จัดการปีการศึกษา
-                        </a>
-                    </div>
-                </div>
+            <div class="col-md-12">
+                
             </div>
         </div>
     </div>

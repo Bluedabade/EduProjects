@@ -109,7 +109,7 @@ require './session.php';
                                         <i class="bi bi-x-circle"></i> ยกเลิก
                                     </a>
                                 <?php endif; ?>
-                                <a class="btn btn-danger btn-sm" onclick="return confirm('ยืนยันการลบ <?php echo $row_me['me_user'] ?>?')" href="#">
+                                <a class="btn btn-danger btn-sm" onclick="return confirm('ยืนยันการลบ <?php echo $row_me['me_user'] ?>?')" href="../../php/a_user_del.php?me_id=<?php echo $row_me['me_id'] ?>">
                                     <i class="bi bi-trash"></i> ลบ
                                 </a>
                             </td>
