@@ -1,4 +1,4 @@
-<?php 
+<?php
 require './session.php';
 ?>
 <!DOCTYPE html>
@@ -16,18 +16,23 @@ require './session.php';
 
 <body>
     <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">EPs</a>
+        <div class="container">
+            <a class="navbar-brand" href="index.php">EPs</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">หน้าหลัก</a>
+                <li class="nav-item">
+                        <a class="nav-link active" href="index.php">หน้าหลัก</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ค้นหา</a>
+                        <a class="nav-link" href="#">เล่มโครงการ</a>
+                    </li><li class="nav-item">
+                        <a class="nav-link" href="user_manage.php">จัดการผู้ใช้</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">เล่มโครงการ</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">ข้อมูลส่วนตัว</a>
@@ -35,13 +40,20 @@ require './session.php';
                 </ul>
             </div>
 
-            <a class="btn btn-outline-light" onclick="return confirm('ยืนยันการออกจากระบบ?')" href="./logout.php">ออกจากระบบ</a>
+            <a class="btn btn-outline-danger" onclick="return confirm('ยืนยันการออกจากระบบ?')" href="./logout.php">ออกจากระบบ</a>
         </div>
     </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+               
+            </div>
+        </div>
+    </div>
 
 
 </body>
-<script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="./assets/imgpreview.js"></script>
+<script src="../../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../../assets/imgpreview.js"></script>
 
 </html>
